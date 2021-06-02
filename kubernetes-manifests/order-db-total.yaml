@@ -40,7 +40,7 @@ spec:
     spec:
       containers:
       - name: postgres
-        image: harbor.tanzu.bekind.io/hub/postgres:9.5
+        image: harbor.tanzu.bekind.io/hub/library/postgres:9.5
         imagePullPolicy: "Always"
         ports:
         - containerPort: 5432
